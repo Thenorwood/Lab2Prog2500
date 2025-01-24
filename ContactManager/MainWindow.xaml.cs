@@ -37,7 +37,7 @@ namespace ContactManager
 
             contacts.Add(newContact);
 
-            // Clear input fields
+
             txtName.Clear();
             txtEmail.Clear();
             txtPhone.Clear();
@@ -46,7 +46,7 @@ namespace ContactManager
         {
             if (contactListView.SelectedItem != null)
             {
-                contacts.Remove((Contact)contactListView.SelectedItem);  // Remove from the ObservableCollection
+                contacts.Remove((Contact)contactListView.SelectedItem); 
             }
         }
     }

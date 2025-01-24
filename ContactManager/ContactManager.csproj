@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Page Include="D:\year2\secondTerm\c#\Labs\Lab2\ContactManager\MainWindow.xaml" Link="MainWindow.xaml" />
+  </ItemGroup>
+
 </Project>

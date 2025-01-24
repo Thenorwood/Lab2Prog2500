@@ -4,6 +4,16 @@
              xmlns:local="clr-namespace:ContactManager"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Padding" Value="15,5"/>
+        </Style>
+
+        <Style TargetType="ListView">
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+        </Style>
     </Application.Resources>
 </Application>
